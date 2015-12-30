@@ -15,7 +15,12 @@ section {
 
 @media print {
     #resume-header {
-        margin-top: 10px;
+        margin-top: 0;
+    }
+
+    body {
+        padding-top: 0;
+        padding-bottom: 0;
     }
 }
 
