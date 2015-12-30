@@ -13,15 +13,22 @@ section {
     }
 }
 
-@media print {
-    #resume-header {
-        margin-top: 0;
-    }
+#resume-header {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
 
-    body {
-        padding-top: 0;
-        padding-bottom: 0;
-    }
+#resume-header h1 {
+    margin-top: 5px;
+}
+
+#resume-header address {
+    margin-bottom: 5px;
+}
+
+body {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 dd.time-period {
@@ -31,4 +38,8 @@ dd.time-period {
 
 #education dd {
     padding-left: 40px;
+}
+
+.no-border {
+    border-bottom: none;
 }
